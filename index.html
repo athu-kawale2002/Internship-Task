@@ -6,25 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Login Page</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    html,
-    body {
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-      width: 100%;
-      height: 100%;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-  </style>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
   <div class="container-fluid vw-100 vh-100" style="position: relative; overflow: hidden; background: #fff;">
+
+
+
+
+
+
     <svg class="vw-100 vh-100" viewBox="0 0 1512 982" fill="none" xmlns="http://www.w3.org/2000/svg"
       style="position: relative; left: -11px; top: 0px;" preserveAspectRatio="none">
       <g style="mix-blend-mode:multiply">
@@ -37,19 +31,42 @@
           stroke="#7ACDDF" stroke-opacity="0.23" stroke-width="17"></path>
       </g>
     </svg>
-    <div class="container">
-      <div class="mx-auto">
-        <p
-          style="width: 182.99px; height: 24.07px; position: absolute; left: 554px; top: 706px; font-size: 16px; font-weight: 500; text-align: center; color: #000;">
-          <a href="./signup.html" style="text-decoration: none;">Create Account</a>
-        </p>
+
+
+
+
+
+    <div class="container centered">
+
+
+      <svg width="155" height="122" viewBox="0 0 155 122" fill="none" xmlns="http://www.w3.org/2000/svg"
+        style="width: 149.63px; height: 117.77px; position: absolute; left: 663px; top: 252px;"
+        preserveAspectRatio="none">
+        <path
+          d="M2.79999 2H19.9109C22.6416 2 25.051 3.71683 25.8452 6.22848L52.632 90.9406C53.4262 93.4521 55.8355 95.169 58.566 95.169H118.92C121.757 95.169 124.234 93.3172 124.932 90.6727L135.738 49.7268C136.436 47.0821 138.912 45.2305 141.75 45.2305H152.431"
+          stroke="black" stroke-width="3.75648" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 10">
+        </path>
+        <path
+          d="M91.277 25.7608C90.3686 24.8878 88.8961 24.8878 87.9878 25.7608L73.1859 39.9911C72.2778 40.8644 72.2778 42.2801 73.1859 43.1533C74.0942 44.0265 75.567 44.0265 76.4753 43.1533L89.6323 30.5044L102.789 43.1533C103.698 44.0265 105.17 44.0265 106.079 43.1533C106.987 42.2801 106.987 40.8644 106.079 39.9911L91.277 25.7608ZM91.9582 69.0817V27.342H87.3065V69.0817H91.9582Z"
+          fill="black"></path>
+        <path
+          d="M73.3512 119.766C77.2048 119.766 80.3288 116.762 80.3288 113.057C80.3288 109.353 77.2048 106.349 73.3512 106.349C69.4976 106.349 66.3736 109.353 66.3736 113.057C66.3736 116.762 69.4976 119.766 73.3512 119.766Z"
+          stroke="black" stroke-width="3.00518" stroke-linejoin="round" stroke-dasharray="10 10"></path>
+        <path
+          d="M107.464 119.766C111.318 119.766 114.442 116.762 114.442 113.057C114.442 109.353 111.318 106.349 107.464 106.349C103.61 106.349 100.486 109.353 100.486 113.057C100.486 116.762 103.61 119.766 107.464 119.766Z"
+          stroke="black" stroke-width="3.00518" stroke-linejoin="round" stroke-dasharray="10 10"></path>
+      </svg>
+
+      <form>
         <div style="width: 376px; height: 54.16px;">
           <div
             style="width: 376px; height: 54.16px; position: absolute; left: 567.5px; top: 437.5px; border-radius: 4px; border-width: 1px; border-color: #000; border-style: dashed;">
           </div>
-          <p
-            style="width: 105.28px; height: 24.07px; position: absolute; left: 631.92px; top: 453.65px; font-size: 14px; font-weight: 300; text-align: center; text-transform: uppercase; color: #000;">
-            Username
+          <p>
+            <input
+              style="width: 265px; height: 24.07px; position: absolute; left: 631.92px; top: 453.65px; font-size: 14px; font-weight: 300; text-transform: uppercase;"
+              type="text" placeholder="Username" aria-label="Username" id="validationDefaultUsername"
+              aria-describedby="inputGroupPrepend2" required>
           </p>
           <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg"
             style="width: 25.07px; height: 24.07px; position: absolute; left: 583.04px; top: 453.65px;"
@@ -62,13 +79,17 @@
               stroke="black" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
+
+
         <div style="width: 376px; height: 54.16px;">
           <div
             style="width: 376px; height: 54.16px; position: absolute; left: 567.5px; top: 515.73px; border-radius: 4px; border-width: 1px; border-color: #000; border-style: dashed;">
           </div>
-          <p
-            style="width: 106.53px; height: 24.07px; position: absolute; left: 631.92px; top: 531.87px; font-size: 14px; font-weight: 300; text-align: center; text-transform: uppercase; color: #000;">
-            password
+          <p>
+            <input
+              style="width: 265px; height: 24.07px; position: absolute; left: 631.92px; top: 531.87px; font-size: 14px; font-weight: 300; text-transform: uppercase;"
+              type="text" placeholder="password" aria-label="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="validationDefaultUsername"
+              aria-describedby="inputGroupPrepend2" required>
           </p>
           <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg"
             style="width: 25.07px; height: 24.07px; position: absolute; left: 583.04px; top: 531.87px;"
@@ -81,39 +102,38 @@
               stroke="black" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
+
+
+
         <div style="width: 376px; height: 54.16px;">
           <div
             style="width: 376px; height: 54.16px; position: absolute; left: 567.5px; top: 638.03px; border-radius: 4px; background: #000; box-shadow: 0px 4px 4px 0 rgba(0,0,0,0.3);">
           </div>
           <p
             style="width: 67.68px; height: 24.07px; position: absolute; left: 722.16px; top: 654.18px; font-size: 16px; font-weight: 600; text-align: center; text-transform: uppercase; color: #fff;">
-            login
+
+            <button type="submit">login</button>
           </p>
         </div>
-        <p
-          style="width: 182.99px; height: 24.07px; position: absolute; left: 761.01px; top: 705.93px; font-size: 16px; font-weight: 500; text-align: center; color: #000;">
-          Forgot password?
-        </p>
-        <svg width="155" height="122" viewBox="0 0 155 122" fill="none" xmlns="http://www.w3.org/2000/svg"
-          style="width: 149.63px; height: 117.77px; position: absolute; left: 663px; top: 252px;"
-          preserveAspectRatio="none">
-          <path
-            d="M2.79999 2H19.9109C22.6416 2 25.051 3.71683 25.8452 6.22848L52.632 90.9406C53.4262 93.4521 55.8355 95.169 58.566 95.169H118.92C121.757 95.169 124.234 93.3172 124.932 90.6727L135.738 49.7268C136.436 47.0821 138.912 45.2305 141.75 45.2305H152.431"
-            stroke="black" stroke-width="3.75648" stroke-linecap="round" stroke-linejoin="round"
-            stroke-dasharray="10 10">
-          </path>
-          <path
-            d="M91.277 25.7608C90.3686 24.8878 88.8961 24.8878 87.9878 25.7608L73.1859 39.9911C72.2778 40.8644 72.2778 42.2801 73.1859 43.1533C74.0942 44.0265 75.567 44.0265 76.4753 43.1533L89.6323 30.5044L102.789 43.1533C103.698 44.0265 105.17 44.0265 106.079 43.1533C106.987 42.2801 106.987 40.8644 106.079 39.9911L91.277 25.7608ZM91.9582 69.0817V27.342H87.3065V69.0817H91.9582Z"
-            fill="black"></path>
-          <path
-            d="M73.3512 119.766C77.2048 119.766 80.3288 116.762 80.3288 113.057C80.3288 109.353 77.2048 106.349 73.3512 106.349C69.4976 106.349 66.3736 109.353 66.3736 113.057C66.3736 116.762 69.4976 119.766 73.3512 119.766Z"
-            stroke="black" stroke-width="3.00518" stroke-linejoin="round" stroke-dasharray="10 10"></path>
-          <path
-            d="M107.464 119.766C111.318 119.766 114.442 116.762 114.442 113.057C114.442 109.353 111.318 106.349 107.464 106.349C103.61 106.349 100.486 109.353 100.486 113.057C100.486 116.762 103.61 119.766 107.464 119.766Z"
-            stroke="black" stroke-width="3.00518" stroke-linejoin="round" stroke-dasharray="10 10"></path>
-        </svg>
-      </div>
+      </form>
+
+
+      <p
+        style="width: 182.99px; height: 24.07px; position: absolute; left: 554px; top: 706px; font-size: 16px; font-weight: 500; text-align: center; color: #000;">
+        <a href="./signup.html" style="text-decoration: none;">Create Account</a>
+      </p>
+      <p
+        style="width: 182.99px; height: 24.07px; position: absolute; left: 761.01px; top: 705.93px; font-size: 16px; font-weight: 500; text-align: center; color: #000;">
+        Forgot password?
+      </p>
+
+
     </div>
+
+
+
+
+
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
