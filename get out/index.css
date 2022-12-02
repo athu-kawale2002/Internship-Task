@@ -1,0 +1,15 @@
+input {
+    border: none;
+  }
+
+  textarea:focus, input:focus{
+    outline: none;
+}
+
+.centered {
+  position: absolute;
+  top: 5%;
+  left: 42%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
